@@ -91,12 +91,12 @@
 
         .hero {
             background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(0, 25, 49, 0.8)), 
-                        url("/assets/hero-bg.png");
-            background-size: cover;
+                        url("assets/hero-bg.png");
+            background-size: contain;
             background-position: center;
             color: white;
             text-align: center;
-            padding: 200px 20px 350px;
+            padding: 200px 20px 230px;
         }
 
         .badge {
@@ -309,13 +309,13 @@
 
         .cta-banner h2 {
             font-size: 40px;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             font-weight: bold;
             height: 48px;
         }
 
         .cta-banner p {
-            color: var(--text-gray);
+            color: #627382;
             margin-bottom: 30px;
             max-width: 1280px;
             margin-left: auto;
@@ -329,7 +329,7 @@
         .footer-note {
             display: block;
             margin-top: 15px;
-            font-size: 13px;
+            font-size: 16px;
             color: #627382;
         }
 
@@ -361,22 +361,21 @@
         .social-links {
             flex-direction: row;
             gap: 20px;
+            
+            
         }
 
         .social-links a {
-            background: rgba(255,255,255,0.1);
-            width: 35px;
-            height: 35px;
+            background:  rgb(0, 0, 0,1), rgba(255,255,255,1);
+            width: 92px;
+            height: 20px;
             border-radius: 50%;
-            display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
             font-size: 20px;
             transition: 0.3s;
-        }
 
-        .social-links a:hover {
-            background: var(--primary-green);
+            
         }
 
         .copyright {
@@ -387,27 +386,5 @@
             padding-top: 30px;
         }
 
-        /* Responsive Fixes */
-        @media (max-width: 992px) {
-            .cards-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            .solution-section {
-                flex-direction: column;
-            }
-            .hero h1 {
-                font-size: 42px;
-            }
-        }
-        
-        @media (max-width: 600px) {
-            .cards-grid {
-                grid-template-columns: 1fr;
-            }
-            .nav-links {
-                display: none; 
-            }
-            .hero h1 {
-                font-size: 32px;
-            }
-        }
+    
+      
