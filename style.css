@@ -49,6 +49,7 @@
         }
           .btn-green:hover {
             background-color: #cc730d;
+            
         }
 
         
@@ -87,6 +88,8 @@
             color: #000000;
         }
 
+      
+
         /* --- HERO SECTION --- */
 
         .hero {
@@ -110,12 +113,17 @@
             align-items: center;
             gap: 8px;
             margin-bottom: 25px;
+            cursor: pointer;
         }
+
 
         .badge i {
             font-size: 8px;
             color: var(--primary-green);
+            
         }
+        
+        
 
         .hero h1 {
             font-size: 72px;
