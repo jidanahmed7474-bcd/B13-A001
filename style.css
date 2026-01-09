@@ -47,6 +47,9 @@
             color: white;
             border: none;
         }
+          .btn-green:hover {
+            background-color: #cc730d;
+        }
 
         
 
@@ -223,6 +226,9 @@
             
 
         }
+         .cards-grid :hover {
+            background: #14d6e4;
+        }
 
      
         .solution-section {
@@ -372,6 +378,9 @@
             justify-content: center;
             font-size: 14px;
             transition: 0.3s;
+        }
+         .social-links a:hover {
+            background: var(--primary-green);
         }
 
         .copyright {
